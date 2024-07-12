@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Tugas Akhir</title>
+        <style>
+        h1 {
+            text-align: center;
+        }
+        th {
+            text-align: center;
+            background-color: aliceblue;
+        }
+        tr { 
+            background-color: cornflowerblue;
+        }
+        td {
+            text-align: center; 
+        }
+
+        ul {
+            background-color: hotpink;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Tugas Akhir</h1>
+
+        <table border="0" style="background-color: black;">
+            <tr >
+                <th rowspan="2" width="300" heigh="700">Kategori</th>
+                <th rowspan="2" width="300" heigh="700">Subkategori</th>
+                <th colspan="2" width="450" heigh="950">Produk</th>
+                <th rowspan="2" width="400" heigh="800">Detail Produk</th>
+            </tr>
+            
+            <tr>
+                <th>Nama Produk</th>
+                <th>Kode Produk</th>
+            </tr>
+
+            <tr>
+                <td rowspan="3" style="background-color: aqua;">Elektronik</td>
+                <td rowspan="2">Televisi</td>
+                <td>Samsung 42"</td>
+                <td style="background-color: blanchedalmond;">TV001</td>
+                <td style="background-color: hotpink;">
+                    <ul>
+                    <li>harga : $400</li>
+                    <li>garansi : 2 tahun</li>
+                    <li>stok : 15 unit</li>
+                    </ul>
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>LG 40"</td>
+                <td style="background-color: blanchedalmond;">TV002</td>
+                <td style="background-color: hotpink;">
+                    <ul>
+                        <li>harga : $350 </li>
+                        <li>garansi : 1 tahun</li>
+                        <li>stok : 20 unit</li>
+                        
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Laptop</td>
+                <td>HP Pavilion</td>
+                <td style="background-color: blanchedalmond;">LT001</td>
+                <td style="background-color: hotpink;">
+                <ul> 
+                    <li>harga $600</li>
+                    <li>garansi : 3 tahun</li>
+                    <li>stok : 10 unit </li>
+                </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="3" style="background-color: palevioletred;"> Perabotan</td>
+                <td style="background-color: ;">Meja</td>
+                <td>Meja kayu</td>
+                <td style="background-color: blanchedalmond;">FUR001</td>
+                <td style="background-color: hotpink;">
+                    <ul>
+                    <li>harga : $150</li>
+                    <li>material : kayu jati</li>
+                    <li>stok : 5 unit</li>
+                    </ul>
+                </td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Kursi
+                <td>Kursi plastik</td>
+                <td style="background-color: blanchedalmond;">FUR002</td>
+                <td style="background-color: hotpink;">
+                   <ul>
+                    <li>harga : $50</li>
+                    <li>material : plastik</li>
+                    <li>stok : 30 unit</li>
+                   </ul>
+                </td>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Kursi kayu</td>
+                <td style="background-color: blanchedalmond;">FUR003</td>
+                <td style="background-color: hotpink;">
+                    <ul>
+                    <li>harga : $75</li>
+                    <li>material : kayu jati </li>
+                    <li>stok : 10 unit </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
